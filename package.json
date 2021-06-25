@@ -1,0 +1,13 @@
+{
+"name": "sysinfo-discordjs",
+  "version": "rc-1.0.0",
+  "description": "System information - v1.0.0 by Reika",
+  "bin": "./module.js",
+  "author": "Reika87",
+  "license": "ISC",
+  "dependencies": {
+    "systeminformation": "^5.7.7",
+    "child_process": "^1.0.2",
+    "readline-sync": "^1.4.10"
+  }
+}
