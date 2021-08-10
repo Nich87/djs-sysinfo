@@ -19,7 +19,7 @@ exports.getinfos = async function sysinfo(Discord, discord) {
     console.info(`[INFO] RAM:${totalRam} GB`)
     console.info(`[INFO] Disk:${disk.vendor} ${disk.name} ${size} GB ${disk.type} (${disk.interfaceType})`)
     console.info(`[INFO] Kernel:${os.kernel} ${os.arch}`)
-    console.info(`[INFO] discord.js:${Discord.version}`)
+    console.info(`[INFO] discord.js:${(discord ?? Discord).version}`)
     console.info(`[INFO] Node: v${versions.node}`)
     console.info(`[INFO] V8: ${versions.v8}`)
     console.info(`[INFO] Run Dir:${process.argv[1]}`)
