@@ -33,7 +33,7 @@ exports.getinfos = async function sysinfo(Discord, discord) {
             console.log(res.slice(0, 200));
         });
     } else {
-        console.log(console.warn('[WARN]Canceled.'))
-        process.exit()
+        console.warn('[WARN]Canceled.');
+        process.exit();
     }
 }
